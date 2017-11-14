@@ -136,13 +136,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KgM-Nn-ACa">
-                                <rect key="frame" x="16" y="20" width="343" height="531"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="343" id="ueZ-pO-89c"/>
-                                    <constraint firstAttribute="height" constant="531" id="ypg-57-5wl"/>
-                                </constraints>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="65z-Ok-ipu">
                                 <rect key="frame" x="52" y="580" width="270" height="54"/>
                                 <constraints>
@@ -156,17 +149,21 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="tcL-jE-vRQ"/>
                                 </connections>
                             </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Xi-uG-RXS">
+                                <rect key="frame" x="16" y="20" width="343" height="539"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Wg-cS-RHa">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="539"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="fbr-BO-Cbu" firstAttribute="trailing" secondItem="KgM-Nn-ACa" secondAttribute="trailing" constant="16" id="5rP-cA-FZ6"/>
                             <constraint firstItem="65z-Ok-ipu" firstAttribute="centerX" secondItem="A4d-PJ-7L9" secondAttribute="centerX" id="7VU-3H-a3H"/>
-                            <constraint firstItem="65z-Ok-ipu" firstAttribute="top" secondItem="KgM-Nn-ACa" secondAttribute="bottom" constant="29" id="LeT-MO-2Tz"/>
-                            <constraint firstItem="KgM-Nn-ACa" firstAttribute="top" secondItem="fbr-BO-Cbu" secondAttribute="top" id="PPt-qq-nky"/>
-                            <constraint firstItem="65z-Ok-ipu" firstAttribute="top" secondItem="KgM-Nn-ACa" secondAttribute="bottom" constant="29" id="RjN-QT-kGF"/>
-                            <constraint firstItem="65z-Ok-ipu" firstAttribute="centerX" secondItem="KgM-Nn-ACa" secondAttribute="centerX" id="VeQ-4n-Lt4"/>
                             <constraint firstItem="65z-Ok-ipu" firstAttribute="centerX" secondItem="A4d-PJ-7L9" secondAttribute="centerX" id="fom-qL-FvR"/>
-                            <constraint firstItem="KgM-Nn-ACa" firstAttribute="leading" secondItem="fbr-BO-Cbu" secondAttribute="leading" constant="16" id="gVu-Iz-ek0"/>
                             <constraint firstItem="65z-Ok-ipu" firstAttribute="leading" secondItem="fbr-BO-Cbu" secondAttribute="leading" constant="52" id="n4h-75-aIk"/>
                             <constraint firstItem="fbr-BO-Cbu" firstAttribute="bottom" secondItem="65z-Ok-ipu" secondAttribute="bottom" constant="33" id="whw-vJ-Y0M"/>
                         </constraints>
