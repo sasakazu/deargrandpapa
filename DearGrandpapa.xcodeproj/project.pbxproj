@@ -14,6 +14,7 @@
 		73DA313D1FBAEE88007A1B30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73DA313B1FBAEE88007A1B30 /* LaunchScreen.storyboard */; };
 		73DA31451FBAF64B007A1B30 /* cameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DA31441FBAF64B007A1B30 /* cameraViewController.swift */; };
 		73DA31491FBAF6DC007A1B30 /* imageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DA31481FBAF6DC007A1B30 /* imageCollectionViewController.swift */; };
+		73DA314C1FBAFCF0007A1B30 /* grandpapa.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 73DA314B1FBAFCF0007A1B30 /* grandpapa.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		73DA313E1FBAEE88007A1B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73DA31441FBAF64B007A1B30 /* cameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraViewController.swift; sourceTree = "<group>"; };
 		73DA31481FBAF6DC007A1B30 /* imageCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageCollectionViewController.swift; sourceTree = "<group>"; };
+		73DA314B1FBAFCF0007A1B30 /* grandpapa.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grandpapa.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +63,22 @@
 			children = (
 				73DA31321FBAEE88007A1B30 /* AppDelegate.swift */,
 				73DA31341FBAEE88007A1B30 /* ViewController.swift */,
-				73DA31361FBAEE88007A1B30 /* Main.storyboard */,
+				73DA314A1FBAFCE0007A1B30 /* images */,
 				73DA31441FBAF64B007A1B30 /* cameraViewController.swift */,
+				73DA31361FBAEE88007A1B30 /* Main.storyboard */,
 				73DA31391FBAEE88007A1B30 /* Assets.xcassets */,
 				73DA313B1FBAEE88007A1B30 /* LaunchScreen.storyboard */,
 				73DA313E1FBAEE88007A1B30 /* Info.plist */,
 			);
 			path = DearGrandpapa;
+			sourceTree = "<group>";
+		};
+		73DA314A1FBAFCE0007A1B30 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				73DA314B1FBAFCF0007A1B30 /* grandpapa.jpeg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73DA314C1FBAFCF0007A1B30 /* grandpapa.jpeg in Resources */,
 				73DA313D1FBAEE88007A1B30 /* LaunchScreen.storyboard in Resources */,
 				73DA313A1FBAEE88007A1B30 /* Assets.xcassets in Resources */,
 				73DA31381FBAEE88007A1B30 /* Main.storyboard in Resources */,
