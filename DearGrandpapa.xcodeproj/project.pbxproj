@@ -12,6 +12,8 @@
 		73DA31381FBAEE88007A1B30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73DA31361FBAEE88007A1B30 /* Main.storyboard */; };
 		73DA313A1FBAEE88007A1B30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73DA31391FBAEE88007A1B30 /* Assets.xcassets */; };
 		73DA313D1FBAEE88007A1B30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73DA313B1FBAEE88007A1B30 /* LaunchScreen.storyboard */; };
+		73DA31451FBAF64B007A1B30 /* cameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DA31441FBAF64B007A1B30 /* cameraViewController.swift */; };
+		73DA31491FBAF6DC007A1B30 /* imageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DA31481FBAF6DC007A1B30 /* imageCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		73DA31391FBAEE88007A1B30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73DA313C1FBAEE88007A1B30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73DA313E1FBAEE88007A1B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73DA31441FBAF64B007A1B30 /* cameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraViewController.swift; sourceTree = "<group>"; };
+		73DA31481FBAF6DC007A1B30 /* imageCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		73DA31261FBAEE88007A1B30 = {
 			isa = PBXGroup;
 			children = (
+				73DA31481FBAF6DC007A1B30 /* imageCollectionViewController.swift */,
 				73DA31311FBAEE88007A1B30 /* DearGrandpapa */,
 				73DA31301FBAEE88007A1B30 /* Products */,
 			);
@@ -57,6 +62,7 @@
 				73DA31321FBAEE88007A1B30 /* AppDelegate.swift */,
 				73DA31341FBAEE88007A1B30 /* ViewController.swift */,
 				73DA31361FBAEE88007A1B30 /* Main.storyboard */,
+				73DA31441FBAF64B007A1B30 /* cameraViewController.swift */,
 				73DA31391FBAEE88007A1B30 /* Assets.xcassets */,
 				73DA313B1FBAEE88007A1B30 /* LaunchScreen.storyboard */,
 				73DA313E1FBAEE88007A1B30 /* Info.plist */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73DA31491FBAF6DC007A1B30 /* imageCollectionViewController.swift in Sources */,
 				73DA31351FBAEE88007A1B30 /* ViewController.swift in Sources */,
+				73DA31451FBAF64B007A1B30 /* cameraViewController.swift in Sources */,
 				73DA31331FBAEE88007A1B30 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
