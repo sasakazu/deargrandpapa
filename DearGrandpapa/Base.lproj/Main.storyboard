@@ -81,6 +81,9 @@
                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
                                 <state key="normal" title="アルバム"/>
+                                <connections>
+                                    <action selector="showAlbum:" destination="hCd-iv-T4k" eventType="touchUpInside" id="Wu3-FF-11X"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJb-0F-EmR">
                                 <rect key="frame" x="16" y="399" width="137" height="120"/>
@@ -88,6 +91,9 @@
                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
                                 <state key="normal" title="カメラ"/>
+                                <connections>
+                                    <action selector="startCamera:" destination="hCd-iv-T4k" eventType="touchUpInside" id="9r1-Ig-z5m"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgN-mc-XuM">
                                 <rect key="frame" x="135" y="604" width="105" height="43"/>
@@ -110,15 +116,21 @@
                                 <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="保存"/>
+                                <connections>
+                                    <action selector="savePicture:" destination="hCd-iv-T4k" eventType="touchUpInside" id="K4g-gs-Dqn"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="T9b-pu-baG"/>
                     </view>
+                    <connections>
+                        <outlet property="cameraView" destination="irK-bJ-Nm1" id="AnD-Dm-yT6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IlQ-KQ-WE4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="772" y="-265.81709145427288"/>
+            <point key="canvasLocation" x="705" y="-369"/>
         </scene>
         <!--Collection View Controller-->
         <scene sceneID="55Y-BH-56F">
