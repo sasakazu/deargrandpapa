@@ -130,12 +130,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IlQ-KQ-WE4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="705" y="-369"/>
+            <point key="canvasLocation" x="1268" y="-385"/>
         </scene>
         <!--Collection View Controller-->
         <scene sceneID="55Y-BH-56F">
             <objects>
-                <collectionViewController id="3H3-pP-egk" sceneMemberID="viewController">
+                <collectionViewController id="3H3-pP-egk" customClass="CollectionViewController" customModule="DearGrandpapa" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="jc1-fH-2EE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -153,12 +153,6 @@
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                     <rect key="frame" x="0.0" y="0.0" width="163" height="142"/>
                                     <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grandpapa.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="wcm-aC-tY2">
-                                            <rect key="frame" x="6" y="9" width="151" height="125"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        </imageView>
-                                    </subviews>
                                 </view>
                             </collectionViewCell>
                         </cells>
@@ -170,10 +164,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zm5-Qh-Uae" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="565.5" y="526.5"/>
+            <point key="canvasLocation" x="650" y="263"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="grandpapa.jpeg" width="300" height="168"/>
-    </resources>
 </document>
